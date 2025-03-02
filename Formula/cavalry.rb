@@ -8,7 +8,7 @@ class Cavalry < Formula
     url "https://s3-ew2-p-claps-downloads-01.s3-eu-west-2.amazonaws.com/#{version}/Cavalry_#{version}.dmg"
   
     # auto_updates true
-    depends_on macos: ">= :catalina"
+    # depends_on macos: ">= :catalina"
 
     app "Cavalary.app"
   end
